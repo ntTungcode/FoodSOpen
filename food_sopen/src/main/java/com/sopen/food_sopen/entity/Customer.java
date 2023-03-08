@@ -1,6 +1,7 @@
 package com.sopen.food_sopen.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.sopen.food_sopen.entity.user.User;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -9,7 +10,6 @@ import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 import javax.persistence.*;
 import java.util.List;
-import java.util.Objects;
 
 @Entity
 @Setter
